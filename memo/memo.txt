@@ -1,0 +1,25 @@
+1) What are the necessary preprocessing steps regarding:
+a) classes ? no preprocessing needed, already binary feature
+
+b) categorical features ? for multicategorical features, creation of dummy variables
+
+c) continuous features ? standardization
+
+2) Confusion matrix:
+a)How many patient were incorrectly diagnosed with a Heart disease (false positives) ? 5
+
+b)How many patient were incorrectly diagnosed as being Healthy (false negatives)? 12
+
+
+3) Changing the threshold:
+a)What is the precision if we change the threshold to have a 0.95 recall ? 0.48
+
+b) How many patient were incorrectly diagnosed as being Healthy (false negatives)? 2
+
+
+
+4) Choosing an overall metric:
+
+a) If I can compute my test sample probabilities and care more about the positive class, which overall metric should I use to compare classifiers ? average precision (AUC precision-recall)
+
+b) And if I only have the class predictions and no probabilities ? f1
